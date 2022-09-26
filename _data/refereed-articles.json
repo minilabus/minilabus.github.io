@@ -1,43 +1,51 @@
 [
-	{
-		"image": "rheault2020common.png",
-		"type": "article-journal",
-		"title": "Common misconceptions, hidden biases and modern challenges of dMRI tractography",
-		"container-title": "Journal of neural engineering",
-		"page": "011001",
-		"volume": "17",
-		"issue": "1",
-		"abstract": "The human brain is a complex and organized network, where the connection between regions is not achieved with single axons crisscrossing each other but rather millions of densely packed and well-ordered axons. Reconstruction from diffusion MRI tractography is only an attempt to capture the full complexity of this network, at the macroscale. This review provides an overview of the misconceptions, biases and pitfalls present in structural white matter bundle and connectome reconstruction using tractography. The goal is not to discourage readers, but rather to inform them of the limitations present in the methods used by researchers in the field in order to focus on what they can do and promote proper interpretations of their results. It also provides a list of open problems that could be solved in future research projects for the next generation of PhD students.",
-		"DOI": "10.1088/1741-2552/ab6aad",
-		"author": [
-			{
-				"family": "Rheault",
-				"given": "Francois"
-			},
-			{
-				"family": "Poulin",
-				"given": "Philippe"
-			},
-			{
-				"family": "Caron",
-				"given": "Alex Valcourt"
-			},
-			{
-				"family": "St-Onge",
-				"given": "Etienne"
-			},
-			{
-				"family": "Descoteaux",
-				"given": "Maxime"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2020",
-					2
-				]
-			]
-		}
-	}
+ {
+  "DOI": "https://doi.org/10.1007/s00429-022-02518-6",
+  "abstract": "Efficient communication across fields of research is challenging, especially when they are at opposite ends of the physical and digital spectrum. Neuroanatomy and neuroimaging may seem close to each other. When neuroimaging studies try to isolate structures of interest, according to a specific anatomical definition, a variety of challenges emerge. It is a non-trivial task to convert the neuroanatomical knowledge to instructions and rules to be executed in neuroimaging software. In the process called “virtual dissection” used to isolate coherent white matter structure in tractography, each white matter pathway has its own set of landmarks (regions of interest) used as inclusion and exclusion criteria. The ability to segment and study these pathways is critical for scientific progress, yet, variability may depend on region placement, and be influenced by the person positioning the region (i.e., a rater). When raters’ variability is taken into account, the impact made by each region of interest becomes even more difficult to interpret. A delicate balance between anatomical validity, impact on the virtual dissection and raters’ reproducibility emerge. In this work, we investigate this balance by leveraging manual delineation data of a group of raters from a previous study to quantify which set of landmarks and criteria contribute most to variability in virtual dissection. To supplement our analysis, the variability of each pathway with a region-by-region exploration was performed. We present a detailed exploration and description of each region, the causes of variability and its impacts. Finally, we provide a brief overview of the lessons learned from our previous virtual dissection projects and propose recommendations for future virtual dissection protocols as well as perspectives to reach better community agreement when it comes to anatomical definitions of white matter pathways.",
+  "author": [
+   {
+    "family": "Rheault",
+    "given": "Francois"
+   },
+   {
+    "family": "Schilling",
+    "given": "Kurt G"
+   },
+   {
+    "family": "Obaid",
+    "given": "Sami"
+   },
+   {
+    "family": "Begnoche",
+    "given": "John P"
+   },
+   {
+    "family": "Cutting",
+    "given": "Laurie E"
+   },
+   {
+    "family": "Descoteaux",
+    "given": "Maxime"
+   },
+   {
+    "family": "Landman",
+    "given": "Bennett A"
+   },
+   {
+    "family": "Petit",
+    "given": "Laurent"
+   }
+  ],
+  "container-title": "Brain Structure and Function",
+  "image": "rheault2022influence.png",
+  "issued": {
+   "date-parts": [
+    [
+     "2022",
+     2
+    ]
+   ]
+  },
+  "title": "The influence of regions of interest on tractography virtual dissection protocols: general principles to learn and to follow"
+ }
 ]
