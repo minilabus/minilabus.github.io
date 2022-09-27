@@ -15,7 +15,7 @@ permalink: /publications/
     {% for publi in site.data.refereed-articles %}
         <div class="panel-heading">
             <a data-toggle="collapse" data-parent="#accordion1"
-               href="#collapse{{forloop.index}}"
+               href="#collapse1{{forloop.index}}"
                style="color: inherit;">
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
@@ -40,7 +40,7 @@ permalink: /publications/
             </a>
         </div>
 
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
+        <div id="collapse1{{forloop.index}}" class="panel-collapse collapse">
             <div class="panel-body">
                 <p>{{ publi.abstract }}</p>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/publication/{{ publi.image }}"
@@ -61,7 +61,7 @@ permalink: /publications/
     {% for publi in site.data.preprints-books-reports %}
         <div class="panel-heading">
             <a data-toggle="collapse" data-parent="#accordion2"
-               href="#collapse{{forloop.index}}"
+               href="#collapse2{{forloop.index}}"
                style="color: inherit;">
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
@@ -86,7 +86,7 @@ permalink: /publications/
             </a>
         </div>
 
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
+        <div id="collapse2{{forloop.index}}" class="panel-collapse collapse">
             <div class="panel-body">
                 <p>{{ publi.abstract }}</p>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/publication/{{ publi.image }}"
@@ -107,7 +107,7 @@ permalink: /publications/
     {% for publi in site.data.conference-papers %}
         <div class="panel-heading">
             <a data-toggle="collapse" data-parent="#accordion3"
-               href="#collapse{{forloop.index}}"
+               href="#collapse3{{forloop.index}}"
                style="color: inherit;">
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
@@ -132,7 +132,7 @@ permalink: /publications/
             </a>
         </div>
 
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
+        <div id="collapse3{{forloop.index}}" class="panel-collapse collapse">
             <div class="panel-body">
                 <p>{{ publi.abstract }}</p>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/publication/{{ publi.image }}"
@@ -147,13 +147,13 @@ permalink: /publications/
 </div>
 
 <h2>Theses and memoirs</h2>
-<div class="panel-group" id="accordion5">
+<div class="panel-group" id="accordion4">
     <div class="panel panel-default">
 
     {% for publi in site.data.conference-abstracts %}
         <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion5"
-               href="#collapse{{forloop.index}}"
+            <a data-toggle="collapse" data-parent="#accordion4"
+               href="#collapse4{{forloop.index}}"
                style="color: inherit;">
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
@@ -178,7 +178,7 @@ permalink: /publications/
             </a>
         </div>
 
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
+        <div id="collapse4{{forloop.index}}" class="panel-collapse collapse">
             <div class="panel-body">
                 <img src="{{ site.url }}{{ site.baseurl }}/images/publication/{{ publi.image }}"
                     height="150"/>
