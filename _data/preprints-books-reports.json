@@ -1,7 +1,7 @@
 [
  {
-  "DOI": "",
-  "abstract": "",
+  "DOI": "10.1101/423459",
+  "abstract": "Tractography is known to have problems reconstructing white matter bundles that are narrow, have high curvature, or go through partial volume voxels contaminated by CSF or gray matter. One such bundle is the fornix, the major output tract of the hippocampus, which is especially problematic with aging. Hippocampal atrophy and ventricular expansion make the fornix even harder (often impossible) to track with current state-of-the-art techniques. In this work, a bundle-specific tractography algorithm is proposed to fully reconstruct the fornix. By injecting shape, position, and orientation priors, fornix reconstruction is markedly is improved. We report an increase in spatial coverage and better reproducibility across test-retest. These improvements over classical tractography algorithms also enable tractometry of the fornix to be combined with dual-tracer positron emission tomography (PET) data in participants with mild cognitive impairment (MCI). MCI participants underwent a multi-modal brain imaging before and after a 6-month daily ketogenic supplement. We report, for the first time, significant diffusion measures and 18F-fluorodeoxyglucose (FDG) uptake differences in specific sub-sections of the fornix after the ketogenic supplement.",
   "author": [
    {
     "family": "Rheault",
