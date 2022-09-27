@@ -158,7 +158,7 @@ permalink: /publications/
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
             {% for author in publi.author %}
-                {% assign authors = authors | push: author.family, author.given %}
+                {% assign authors = authors | push: author.family %}
             {% endfor %}
             {{ authors | array_to_sentence_string }},
 
@@ -183,7 +183,7 @@ permalink: /publications/
                 <img src="{{ site.url }}{{ site.baseurl }}/images/publication/{{ publi.image }}"
                     height="150"/>
 
-                <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
+                <a class="btn btn-outline-primary" href="{{publi.URL}}"
                    role="button" target="blank">Link</a>
             </div>
         </div>
