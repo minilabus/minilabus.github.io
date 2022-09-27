@@ -172,7 +172,7 @@ permalink: /publications/
             ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
 
             <!-- DOI -->
-            {% if publi.DOI %}
+            {% if publi.URL %}
                 <a href="{{publi.URL}}">LINK</a>
             {% endif %}
             </a>
