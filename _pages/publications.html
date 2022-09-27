@@ -146,52 +146,6 @@ permalink: /publications/
     </div>
 </div>
 
-<h2>Conference Abstracts</h2>
-<div class="panel-group" id="accordion4">
-    <div class="panel panel-default">
-
-    {% for publi in site.data.conference-abstracts %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion4"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
-            <!-- authors -->
-            {% assign authors = "" | split:"/" %}
-            {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
-            {% endfor %}
-            {{ authors | array_to_sentence_string }},
-
-            <!-- title with link -->
-            "{{ publi.title }}",
-
-            <!-- container -->
-            <b>{{ publi.container-title }}</b>
-
-            <!-- issued date -->
-            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
-
-            <!-- DOI -->
-            {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
-            </a>
-        </div>
-
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
-            <div class="panel-body">
-                <p>{{ publi.abstract }}</p>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/publication/{{ publi.image }}"
-                    height="150"/>
-
-                <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
-                   role="button" target="blank">Link</a>
-            </div>
-        </div>
-    {% endfor %}
-    </div>
-</div>
-
 <h2>Theses and memoirs</h2>
 <div class="panel-group" id="accordion5">
     <div class="panel panel-default">
@@ -204,7 +158,7 @@ permalink: /publications/
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
             {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
+                {% assign authors = authors | push: author.family, author.given %}
             {% endfor %}
             {{ authors | array_to_sentence_string }},
 
@@ -219,14 +173,13 @@ permalink: /publications/
 
             <!-- DOI -->
             {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+                <a href="{{publi.URL}}">LINK</a>
             {% endif %}
             </a>
         </div>
 
         <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
             <div class="panel-body">
-                <p>{{ publi.abstract }}</p>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/publication/{{ publi.image }}"
                     height="150"/>
 
