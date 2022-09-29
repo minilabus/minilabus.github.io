@@ -1,15 +1,17 @@
 ---
 title: "Research"
 layout: default
-excerpt: "RT2 Lab -- Research"
+excerpt: "MINi Lab -- Research"
 sitemap: false
 permalink: /research/
 ---
 
 # Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu turpis egestas pretium aenean. Luctus venenatis lectus magna fringilla urna porttitor. Lorem ipsum dolor sit amet. Pellentesque massa placerat duis ultricies. Commodo viverra maecenas accumsan lacus vel. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Pellentesque sit amet porttitor eget dolor morbi non. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Id aliquet risus feugiat in. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Sapien pellentesque habitant morbi tristique. Sapien eget mi proin sed libero enim. Viverra vitae congue eu consequat ac felis donec.
+The MINi lab focuses on creating medical imaging tools for clinical research. A major effort is put toward the quantification of measurement errors to ensure results are reproducible and conclusions replicable.
 
-Mauris vitae ultricies leo integer malesuada. Vulputate ut pharetra sit amet aliquam id diam maecenas. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Et tortor at risus viverra adipiscing at in. Urna nunc id cursus metus aliquam eleifend. Massa tincidunt dui ut ornare lectus. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Enim diam vulputate ut pharetra sit. Facilisi cras fermentum odio eu feugiat pretium. Commodo elit at imperdiet dui accumsan sit amet nulla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Vivamus at augue eget arcu dictum varius duis. Faucibus pulvinar elementum integer enim neque volutpat. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
+Projects mostly involve the processing, visualization, and analysis of diffusion MRI and tractography in the human brain. The investigation of white matter pathways or structural connectomes is the principal area of research. However, our expertise in imaging sciences can be applied or used to investigate other medical imaging modalities (CT, PET, etc.), other species (mice, primates, etc.), or other organs (heart, lungs, etc.). 
 
-Cras adipiscing enim eu turpis. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Sed lectus vestibulum mattis ullamcorper velit. Ut faucibus pulvinar elementum integer. Mattis nunc sed blandit libero volutpat sed cras ornare. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Risus nullam eget felis eget nunc lobortis mattis. In tellus integer feugiat scelerisque varius morbi enim. Eget nunc lobortis mattis aliquam faucibus purus in. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Augue neque gravida in fermentum et sollicitudin ac orci. Id donec ultrices tincidunt arcu non. Pharetra et ultrices neque ornare aenean euismod. Purus faucibus ornare suspendisse sed. Nibh tellus molestie nunc non blandit massa enim. Non diam phasellus vestibulum lorem sed risus. Vel eros donec ac odio tempor orci dapibus ultrices in. Libero id faucibus nisl tincidunt.
+Our goal is to develop fundamental methods for the next generation of clinical translation and support our clinical collaborators in their research. We believe imaging science will be essential in the future to guide clinical practice. 
+
+A key component of our research program is open science: open-source code, data sharing, and transparent research (validation/replication studies, publication of null results, etc.). Another component is the development of skills for both industrial and academic careers to ensure trainees are ready for their life outside/after the research program. 
