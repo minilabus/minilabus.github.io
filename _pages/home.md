@@ -8,7 +8,7 @@ permalink: /
 
 ### About the Lab
 
-The Medical Imaging and NeuroInformatic laboratory (MINi lab.) explores ways to increase the clinical relevance of medical imaging. More specifically the usefulness of diffusion magnetic resonance imaging and tractography. The laboratory is located in the Science Faculty of the Université de Sherbrooke. The Université de Sherbrooke is a french-speaking University (undergrate courses and administrative interactions).
+The Medical Imaging and NeuroInformatic laboratory (MINi lab.) explores ways to increase the clinical relevance of medical imaging. More specifically the usefulness of diffusion magnetic resonance imaging and tractography. The laboratory is located in the Science Faculty of the Université de Sherbrooke. The Université de Sherbrooke is a french-speaking University (undergraduate courses and administrative interactions).
 
 [Faculté de Science](https://www.usherbrooke.ca/sciences/)
 
@@ -25,7 +25,7 @@ Sherbrooke is a city of around 200,000 inhabitants in the south of Quebec (Easte
 
 There are eight institutions educating 40,000 students and employing 11,000 people, 3,700 of whom are professors, teachers and researchers. The proportion of university students is 10.32 students per 100 inhabitants, giving Sherbrooke the largest concentration of students in Quebec.
 
-The Sherbrooke region is surrounded by mountains, rivers and lakes. There are several ski hills nearby and various tourist attractions in regional flavour. Mont-Bellevue Park, a large park in the city, is well-known for downhill skiing and mountain biking. The St-Francois and Magog rivers are great for kayaking and canoeing and there is several biking (summer) and cross-country skiing (winter) trails in the regions.
+The Sherbrooke region is surrounded by mountains, rivers and lakes. There are several ski hills nearby and various tourist attractions in regional flavour. Mont-Bellevue Park, a large park in the city, is well-known for downhill skiing and mountain biking. The St-Francois and Magog rivers are great for kayaking and canoeing and there are several biking (summer) and cross-country skiing (winter) trails in the regions.
 
 [Sherbrooke](https://www.sherbrooke.ca/en)
 [Eastern Township](https://www.easterntownships.org/)
